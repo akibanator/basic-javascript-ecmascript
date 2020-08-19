@@ -1,5 +1,5 @@
 # javascript-ecmascript
-<h1>Repositório onde contém aulas e exercícios de JavaScript e ECMAScript do CursoEmVideo patrocinado pelo Google.<h1>
+<h1>Repositório onde contém aulas e exercícios de JavaScript e ECMAScript do CursoEmVideo patrocinado pelo Google.</h1>
 
 <p>Curso de linguagem JavaScript, voltado para iniciantes e para quem quiser aprender mais sobre ECMAScript, a versão padronizada do JS. Em um curso patrocinado pelo Google, o professor Gustavo Guanabara vai ensinar o conteúdo básico em 6 módulos:<p
 >
