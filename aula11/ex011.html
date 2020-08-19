@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você é estrangeiro?</title>
+</head>
+<body>
+    Digite o país onde você nasceu: <input type="text" name="txtPais" id="txtPais">
+    <input type="button" value="Verificar" onclick='clicar()' > <!--id="verificar"-->
+    <div id="res"></div>
+    <script>
+        //var pais = window.document.querySelector('input#verificar')
+        //pais.addEventListener(click, clicar)
+
+        function clicar() {
+            var pais = window.document.getElementById('txtPais').value
+            var res = window.document.getElementById('res')
+            if (pais == 'Brasil') {
+                res.innerHTML = `<p>Você é brasileiro!</p>`
+            } else {
+                res.innerHTML = `<p>Você é estrangeiro</p>`
+            }
+        }
+    </script>
+</body>
+</html>
